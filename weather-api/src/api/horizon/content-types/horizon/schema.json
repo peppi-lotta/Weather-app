@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "horizons",
+  "info": {
+    "singularName": "horizon",
+    "pluralName": "horizons",
+    "displayName": "horizon ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bottom": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Middle": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Top": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Starting_time": {
+      "type": "time"
+    },
+    "Ending_time": {
+      "type": "time"
+    }
+  }
+}
